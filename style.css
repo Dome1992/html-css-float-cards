@@ -1,3 +1,6 @@
+body{
+    background-image: url(img/Progetto\ senza\ titolo\ \(18\).png);
+}
 header{
     padding: 0px;
     box-sizing: border-box;
@@ -10,7 +13,8 @@ h1{
     padding-bottom: 35px;
     padding-top: 20px;
     color: rgba(216, 17, 140, 0.856);
-    font-family:Arial, Helvetica, sans-serif
+    font-family: 'Alata', sans-serif;
+
 }
 h4{
     text-align: center;
@@ -24,13 +28,22 @@ h4{
     box-sizing: border-box;
     
   }
+  .conteiner{
+    width: 80%;
+    margin:auto;
+
+  }
   img{
     height: 70px;
+    float: left;
   }
   .box {
+    background-color: black;
     float: left;
-    width: 33.33%;
-    height: 70px;
+    width: calc((100%/3) - 40px);
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgb(179, 177, 177);
+   
   }
   
   .clearfix::after {
@@ -38,7 +51,13 @@ h4{
     clear: both;
     display: table;
   }
-  p{
-    text-align:center;
-    ;
-  }
+span{
+    color: antiquewhite;
+    font-size: 13px;
+    font-family: 'Alata', sans-serif;
+
+    
+}
+.email{
+    color: rgb(14, 145, 252);
+}
