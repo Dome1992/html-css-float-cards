@@ -1,10 +1,21 @@
 body{
     background-image: url(img/Progetto\ senza\ titolo\ \(18\).png);
 }
+
+.sfondo{
+    height: 580px;
+    background: transparent;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
 header{
     padding: 0px;
     box-sizing: border-box;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -22,8 +33,6 @@ h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-
 * {
     box-sizing: border-box;
     
@@ -36,9 +45,11 @@ h4{
   img{
     height: 70px;
     float: left;
+    border-radius: 30px;
   }
   .box {
     background-color: black;
+    border-radius: 30px;
     float: left;
     width: calc((100%/3) - 40px);
     margin: 20px;
@@ -55,8 +66,8 @@ span{
     color: antiquewhite;
     font-size: 13px;
     font-family: 'Alata', sans-serif;
+    margin-left: 20px;
 
-    
 }
 .email{
     color: rgb(14, 145, 252);
