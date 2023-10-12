@@ -18,6 +18,8 @@ header{
     width: 80%;
     margin: auto;
 }
+footer{
+}
 
 h1{
     text-align: center;
@@ -32,7 +34,9 @@ h4{
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.logo{
+    margin-left :60px;
+}
 * {
     box-sizing: border-box;
     
